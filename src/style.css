@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter";
-    background-color : #fff;
 }
 
 p {
@@ -17,6 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color : #fff;
 }
 
 .container {
