@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+p {
+    font-size: 0.87rem;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+    padding: 2.5rem;
+}
+
+.firstHalf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatarImage {
+    max-width: 8rem;
+    border-radius: 50%;
+    margin-bottom: 1.7rem;
+}
+
+.name {
+    color: #ffff;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.description {
+    color: #ffff;
+    margin-bottom: 2rem;
+}
+
+.skill {
+    background-color: hsl(0, 0%, 20%);
+    color: #fff;
+    font-weight: 600;
+    padding: 13px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.skill:hover {
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    color: #000;
+}
